@@ -30,7 +30,6 @@ module.exports = {
         btn_bg: "url(./assets/images/png/btn-bg-image.png)",
         navbar_sm_bg: "url(./assets/images/png/navbar-sm-bg.png)",
         hero_sm_bg: "url(./assets/images/webp/hero-sm-bg.webp)",
-
       },
       colors: {
         charcol: "#202020",
@@ -38,6 +37,7 @@ module.exports = {
         yellow: "#FAD300"
       },
       screens: {
+        "2xsm": "425px",
         xsm: "576px",
       }
     },

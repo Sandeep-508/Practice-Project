@@ -10,6 +10,6 @@
 
 @layer components {
     .xxl-prop {
-        @apply max-w-[1920px] mx-auto
+        @apply max-w-[1600px] mx-auto
     }
 }

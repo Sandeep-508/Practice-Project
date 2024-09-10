@@ -3,9 +3,16 @@ import CenterGod from '../assets/images/png/navbar-center-god-image.png'
 import { NAVBAR_DATA } from '../utils/helper'
 const Navbar = () => {
     const [active, setActive] = useState(false)
+    if (active) {
+        let body = document.body;
+        body.style.overflow = "hidden";
+    } else {
+        let body = document.body;
+        body.style.overflow = "auto";
+    }
     return (
         <div>
-            <div className="max-w-[1180px] container lg:pt-[43px] pt-5">
+            <div className="max-w-[1180px] container lg:pt-[43px] pt-5 relative z-50">
                 <div className="xsm:bg-navbar_bg bg-navbar_sm_bg bg-full relative bg-no-repeat bg-center py-[14px] lg:px-10 md:px-8 px-3 flex items-center justify-between">
                     <div className={`flex items-center gap-9 transition max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-white max-lg:flex max-lg:items-center max-lg:justify-center ${active ? "max-lg:left-0" : "max-lg:-left-[100%]"}`}>
                         <a href="#" className="text-base text-charcol hover:opacity-70 transition font-medium" onClick={() => setActive(false)}>Home</a>
