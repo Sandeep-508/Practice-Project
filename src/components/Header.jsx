@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             <div className="relative">
                 <Navbar />
-                <div className='absolute left-1/2 -translate-x-1/2 lg:top-[100px] md:top-[97px] top-16 2xl:top-[150px] max-md:hidden w-full h-full xl:min-w-[1440px] sm:min-w-[1440px] xsm:min-w-[1536px]'>
+                <div className='absolute left-1/2 -translate-x-1/2 lg:top-[100px] md:top-[99px] top-16 2xl:top-[150px] max-md:hidden w-full h-full xl:min-w-[1440px] sm:min-w-[1440px] xsm:min-w-[1536px]'>
                     <img src={justTemple} alt="just temple image" className='w-full h-full md:object-contain object-cover' />
                 </div>
                 <div className='absolute left-1/2 -translate-x-1/2 w-full h-full md:hidden min-w-[671px]'>
@@ -48,7 +48,7 @@ const Header = () => {
                         Welcome to the beginning of the end of your search. Meditation - taking the attention to the Source of attention is the simplest and most direct way to increase consciousness. To do just that, Trimurti Ashram in Rishikesh offers the finest spiritual tool available anywhere on Earth.
                     </p>
                     <div className="flex items-center justify-center">
-                        <button className="py-[15px] h-[56px] px-9 font-Marko bg-btn_bg bg-full bg-no-repeat bg-center">
+                        <button className="py-[15px] h-[56px] px-9 font-Marko bg-btn_bg bg-full bg-no-repeat bg-center hover:text-white transition">
                             Register Now
                         </button>
                     </div>
