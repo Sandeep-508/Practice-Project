@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 import wingLeft from '../assets/images/svg/text-wing-left.svg';
 import wingRight from '../assets/images/svg/text-wing-right.svg';
 import images from '../assets/images/png/orange-color-with-flowers.png'
-import justTemple from '../assets/images/png/just-temple-img.png'
-import justTempleSm from '../assets/images/png/just-temple-sm-img.png'
+import justTemple from '../assets/images/webp/just-temple-img.webp'
+import justTempleSm from '../assets/images/webp/just-temple-sm-img.webp'
 import leftPillar from '../assets/images/png/left-side-pillar.png'
 import rightPillar from '../assets/images/png/right-side-pillar.png'
 import leftPillarSm from '../assets/images/png/sm-left-pillar.png'
