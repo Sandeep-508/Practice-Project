@@ -25,11 +25,11 @@ module.exports = {
         full: "100% 100%",
       },
       backgroundImage: {
-        header_bg: "url(./assets/images/png/header-background-image.png)",
+        header_bg: "url(./assets/images/webp/header-background-image.webp)",
         navbar_bg: "url(./assets/images/png/navbar-bg-image.png)",
         btn_bg: "url(./assets/images/png/btn-bg-image.png)",
         navbar_sm_bg: "url(./assets/images/png/navbar-sm-bg.png)",
-        hero_sm_bg: "url(./assets/images/png/hero-sm-bg.png)",
+        hero_sm_bg: "url(./assets/images/webp/hero-sm-bg.webp)",
 
       },
       colors: {
